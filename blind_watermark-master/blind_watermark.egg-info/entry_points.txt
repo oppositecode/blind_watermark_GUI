@@ -1,0 +1,2 @@
+[console_scripts]
+blind_watermark = blind_watermark.cli_tools:main
