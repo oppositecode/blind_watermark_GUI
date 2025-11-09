@@ -158,11 +158,7 @@ pyinstaller --onefile --windowed --name blind_watermark_gui blind_watermark_gui.
 5. **问**：水印可以嵌入多少信息？
    **答**：水印容量取决于原图大小，一般来说，原图越大，可以嵌入的信息量越多。
 
-## 相关项目
-
-- text_blind_watermark（文本盲水印）：[https://github.com/guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark)
-- HideInfo（藏物于图、藏物于音、藏图于文）：[https://github.com/guofei9987/HideInfo](https://github.com/guofei9987/HideInfo)
-
 ## 许可证
+
 
 本项目采用MIT许可证。详情请查看[LICENSE](LICENSE)文件。
