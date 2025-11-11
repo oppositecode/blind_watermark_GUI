@@ -101,8 +101,15 @@ class WaterMark:
         if mode == 'img':
             wm = 255 * wm.reshape(wm_shape[0], wm_shape[1])
             cv2.imwrite(out_wm_name, wm)
+        # elif mode == 'str':
+        #     byte = ''.join(str((i >= 0.5) * 1) for i in wm)
+        #     wm = bytes.fromhex(hex(int(byte, base=2))[2:]).decode('utf-8', errors='replace')
         elif mode == 'str':
             byte = ''.join(str((i >= 0.5) * 1) for i in wm)
-            wm = bytes.fromhex(hex(int(byte, base=2))[2:]).decode('utf-8', errors='replace')
+            hex_str = hex(int(byte, base=2))[2:]
+            # 确保十六进制字符串为偶数长度
+            if len(hex_str) % 2:
+                hex_str = '0' + hex_str
+            wm = bytes.fromhex(hex_str).decode('utf-8', errors='replace')
 
         return wm
