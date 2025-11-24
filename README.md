@@ -3,7 +3,7 @@
 基于频域的数字盲水印工具 - GUI版本
 
 [![PyPI](https://img.shields.io/pypi/v/blind_watermark)](https://pypi.org/project/blind_watermark/)
-[![License](https://github.com/oppositecode/blind_watermark_GUI/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/oppositecode/blind_watermark_GUI/blob/main/LICENSE)
 ![Python](https://img.shields.io/badge/python->=3.5-green.svg)
 ![Platform](https://img.shields.io/badge/platform-windows%20|%20linux%20|%20macos-green.svg)
 
