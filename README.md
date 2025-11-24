@@ -116,7 +116,7 @@ python blind_watermark_gui.py
 
 1. 克隆项目：
 ```bash
-git clone https://github.com/guofei9987/blind_watermark.git
+git clone https://github.com/oppositecode/blind_watermark.git
 cd blind_watermark
 ```
 
